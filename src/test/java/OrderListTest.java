@@ -2,11 +2,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Before;
 import org.junit.Test;
-import pojo.Login;
 import pojo.OrderList;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.equalTo;
 
 public class OrderListTest {
 
